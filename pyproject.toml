@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nystrom-qkernel"
+version = "0.1.0"
+description = "Shot-budgeted Nystrom approximation of fidelity quantum kernels with a noise-floor spectral cut"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Degala Chenchupradeep" }]
+dependencies = [
+    "numpy==2.2.6",
+    "scipy==1.17.1",
+    "pandas==2.3.3",
+    "scikit-learn==1.8.0",
+    "matplotlib==3.11.1",
+    "joblib==1.5.3",
+    "qiskit==2.4.2",
+    "qiskit-aer==0.17.2",
+]
+
+[project.optional-dependencies]
+test = ["pytest==9.1.1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

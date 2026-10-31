@@ -1,0 +1,60 @@
+{
+  "statevector_max_abs_kernel_error": {
+    "4": 2.6645352591003757e-15,
+    "6": 4.218847493575595e-15
+  },
+  "noise_model_vs_aer": [
+    {
+      "n_qubits": 4,
+      "p2": 0.003,
+      "n_pairs": 12,
+      "cx_per_circuit": 24,
+      "cx_transpiled_one_map": 12,
+      "model_fidelity": 0.9304302024748963,
+      "mean_signed_error": 0.003080436464165963,
+      "rms_error": 0.00408683629535457,
+      "max_abs_error": 0.008254643515536175,
+      "mean_aer_probability": 0.3245161535194742,
+      "mean_model_probability": 0.32143571705530827
+    },
+    {
+      "n_qubits": 6,
+      "p2": 0.003,
+      "n_pairs": 12,
+      "cx_per_circuit": 40,
+      "cx_transpiled_one_map": 20,
+      "model_fidelity": 0.8867604854519607,
+      "mean_signed_error": 0.003417403957856172,
+      "rms_error": 0.004981878761728473,
+      "max_abs_error": 0.011798292048395664,
+      "mean_aer_probability": 0.1640061829298127,
+      "mean_model_probability": 0.16058877897195653
+    },
+    {
+      "n_qubits": 6,
+      "p2": 0.01,
+      "n_pairs": 12,
+      "cx_per_circuit": 40,
+      "cx_transpiled_one_map": 20,
+      "model_fidelity": 0.6689717585696803,
+      "mean_signed_error": 0.009237334368661814,
+      "rms_error": 0.01342016335970096,
+      "max_abs_error": 0.03168089285331532,
+      "mean_aer_probability": 0.13422295173801777,
+      "mean_model_probability": 0.12498561736935594
+    },
+    {
+      "n_qubits": 6,
+      "p2": 0.03,
+      "n_pairs": 12,
+      "cx_per_circuit": 40,
+      "cx_transpiled_one_map": 20,
+      "model_fidelity": 0.29571228739913247,
+      "mean_signed_error": 0.015333265890979978,
+      "rms_error": 0.022053101251979113,
+      "max_abs_error": 0.051393653558789915,
+      "mean_aer_probability": 0.07930003503055878,
+      "mean_model_probability": 0.06396676913957881
+    }
+  ]
+}

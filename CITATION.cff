@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Shot-Budgeted Nystrom Quantum Kernels: Landmark Count, Shot Noise and a Spectral Noise-Floor Cut"
+type: software
+authors:
+  - family-names: Degala
+    given-names: Chenchupradeep
+repository-code: "https://github.com/pradeepdegalaroyal/shot-budget-nystrom-quantum-kernel-noise-floor"
+version: 0.1.0
+date-released: 2026-10-31
+license: MIT
+keywords:
+  - quantum machine learning
+  - quantum kernel
+  - Nystrom approximation
+  - shot budget

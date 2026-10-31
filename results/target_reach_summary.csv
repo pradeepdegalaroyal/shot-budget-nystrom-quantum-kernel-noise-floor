@@ -1,0 +1,13 @@
+method,c,tol,groups,reached,median_budget_reached
+nystrom_cv_m,0.0,0.02,12,3,51200000.0
+nystrom_cv_m,0.0,0.05,12,10,12800000.0
+nystrom_cv_m,0.25,0.02,12,7,51200000.0
+nystrom_cv_m,0.25,0.05,12,11,12800000.0
+nystrom_cv_m,0.5,0.02,12,7,51200000.0
+nystrom_cv_m,0.5,0.05,12,11,12800000.0
+nystrom_cv_m,1.0,0.02,12,6,51200000.0
+nystrom_cv_m,1.0,0.05,12,11,3200000.0
+nystrom_cv_m,2.0,0.02,12,2,32000000.0
+nystrom_cv_m,2.0,0.05,12,10,12800000.0
+quantum_full_kernel,-1.0,0.02,12,3,51200000.0
+quantum_full_kernel,-1.0,0.05,12,6,8000000.0

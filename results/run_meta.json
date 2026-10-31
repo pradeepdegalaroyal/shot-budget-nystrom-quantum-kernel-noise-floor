@@ -1,0 +1,13 @@
+{
+  "quick": false,
+  "cells": 60,
+  "simulation_seconds": 337.9,
+  "total_seconds": 359.3,
+  "workers": 4,
+  "python": "3.11.9",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "cpu_threads": 16,
+  "gpu_used": false,
+  "numpy": "2.2.6",
+  "pandas": "2.3.3"
+}
